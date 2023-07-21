@@ -1,3 +1,11 @@
 h1 {
   color: rgb(108, 163, 182);
+  text-align: left;
+  background-color: aliceblue;
+  font-weight: bold;
+}
+
+h2 {
+  background-color: antiquewhite;
+  text-align: left;
 }
