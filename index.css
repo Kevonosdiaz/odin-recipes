@@ -1,11 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+.exterior {
+  border: 2px solid black;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 624px;
+  height: auto;
+}
+
 h1 {
   color: rgb(108, 163, 182);
-  text-align: left;
+  /*text-align: left;*/
   background-color: aliceblue;
   font-weight: bold;
+  border: 2px solid black;
+  padding: 8px;
+  width: 600px;
+  height: auto;
 }
 
 h2 {
   background-color: antiquewhite;
   text-align: left;
+  border: 2px solid black;
+  padding: 4px;
+  width: 600px;
+  /* We could use box-sizing: border-box; to use width/height as total box size (content + pad + border + margin */
+}
+
+img {
+  width: 600px;
+  height: auto;
+}
+
+ul {
+  display: flexbox;
+  border: 1px solid black;
+  padding: 8px;
+  width: 600px;
+  list-style-type: none;
 }
